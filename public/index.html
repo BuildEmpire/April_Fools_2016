@@ -2,30 +2,6 @@
 <html>
 <head>
 
-  <!--Start of Zopim Live Chat Script-->
-  <script type="text/javascript">
-    window.$zopim || (function (d, s) {
-      var z = $zopim = function (c) {
-        z._.push(c)
-      }, $ = z.s =
-          d.createElement(s), e = d.getElementsByTagName(s)[0];
-      z.set = function (o) {
-        z.set.
-        _.push(o)
-      };
-      z._ = [];
-      z.set._ = [];
-      $.async = !0;
-      $.setAttribute("charset", "utf-8");
-      $.src = "../../../v2.zopim.com/indexc5ff.html?3GhAvaMsdU25LGWzjobQUY3sDshw13Yv";
-      z.t = +new Date;
-      $.
-          type = "text/javascript";
-      e.parentNode.insertBefore($, e)
-    })(document, "script");
-  </script>
-  <!--End of Zopim Live Chat Script-->
-
   <meta charset="utf-8">
   <!--[if IE]>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -104,7 +80,7 @@
         href='http://www.millermetcalfe.co.uk/wp-content/themes/millermetcalfe/css/vendor/chosen.css?ver=4.2.7'
         type='text/css' media='all'/>
   <link rel='stylesheet' id='flexslider-css'
-        href='http://www.millermetcalfe.co.uk/wp-content/themes/millermetcalfe/css/vendor/flexslider.css?ver=4.2.7'
+        href='flexslider.css?ver=4.2.7'
         type='text/css' media='all'/>
   <link rel='stylesheet' id='fancybox-css'
         href='http://www.millermetcalfe.co.uk/wp-content/themes/millermetcalfe/css/vendor/jquery.fancybox.css?ver=4.2.7'
@@ -825,7 +801,7 @@
         <section id="Entrance Hall" class="property-detail-section">
           <div class="title">Entrance Hall <span class="expand-symbol"></span></div>
           <p>Front entrance door to the hallway, stairs leading to the first floor with an under stairs storage cupboard and a radiator.</p>
-          <p>The spacious hallway also has the benefit of the downstairs W/C and access to the garage.</p>
+          <p>The spacious hallway also has the benefit of the downstairs W/C.</p>
         </section>
 
         <section id="Seperate WC" class="property-detail-section">
@@ -899,8 +875,8 @@
         </section>
 
         <section id="Integral Garage" class="property-detail-section">
-          <div class="title">En-Suite <span class="expand-symbol"></span></div>
-          <p>A large driveway and access to the integral garage which fearture an up and over door.</p>
+          <div class="title">Integral Garage <span class="expand-symbol"></span></div>
+          <p>A large driveway and access to the integral garage which features an up and over door.</p>
         </section>
 
         <section id="Council Tax" class="property-detail-section">
@@ -915,19 +891,9 @@
 
         <ul class="property-features">
 
+          <li><a href="#" class="property-download epc-open" target="_blank">View Floor Plan</a></li>
 
-          <li><a href="http://desr.es/tt0et" class="property-download" target="_blank">View Brochure</a></li>
-
-
-          <li><a
-              href="http://www.dezrez.com/Drapp/Search.ASP?WCI=PortalBrochure&amp;WCE=003821650&amp;Template=PortalBrochure&amp;eaid=979"
-              class="property-download" target="_blank">View Brochure</a></li>
-
-
-          <li><a href="https://vimeo.com/130743418" class="property-virtualtour" target="_blank">Virtual Tour</a></li>
-
-
-          <li><a href="http://maps.google.com/maps?q=53.5864735651,-2.4954347731&amp;data=!4m2!3m1!1s0x0:0x0"
+          <li><a href="https://www.google.com/maps/place/Brooklands,+Horwich,+Bolton+BL6+5RW,+UK/@53.5972944,-2.5445837,18z/data=!3m1!4b1!4m2!3m1!1s0x487b090bc6fe96f3:0xb2a5c8fd3c873be"
                  class="property-location" target="_blank">View Google Map</a></li>
 
 
@@ -1042,14 +1008,10 @@
   </section>
 
   <div class="epc-overlay">
-
-    <div class="epc-content">
-
-      <a href="#" class="close-epcoverlay">&times;</a>
-
-
+    <div class="epc-content" style="text-align:center;">
+      <a href="#" class="close-epcoverlay">×</a>
+      <img src="images/floorplan.jpg" alt="" style="width: auto; height:auto; ">
     </div>
-
   </div>
 
 </div>
@@ -1209,9 +1171,6 @@
         src='http://www.millermetcalfe.co.uk/wp-content/themes/millermetcalfe/js/vendor/handlebars-v1.3.0.js?ver=1.3.0'></script>
 <script type='text/javascript'
         src='http://www.millermetcalfe.co.uk/wp-content/themes/millermetcalfe/js/vendor/jquery-ui-1.10.4.custom.min.js?ver=1.10.4'></script>
-<script type='text/javascript' src='http://maps.googleapis.com/maps/api/js?sensor=false&amp;ver=3'></script>
-
-
 <script>
 
   jQuery(document).ready(function ($) {
