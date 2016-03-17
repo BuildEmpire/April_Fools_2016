@@ -1,0 +1,13 @@
+{
+  "run_list":[
+    "git",
+    "cookbook_april_fools"
+  ],
+  "nginx": {
+    "version": "1.9.12",
+    "source": {
+      "checksum": "1af2eb956910ed4b11aaf525a81bc37e135907e7127948f9179f5410337da042",
+      "modules": ["nginx::http_sub_module"]
+    }
+  }
+}
