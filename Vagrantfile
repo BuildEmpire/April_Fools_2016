@@ -15,7 +15,7 @@ Vagrant.configure("2") do |config|
     vb.customize ["modifyvm", :id, "--natdnsproxy1", "on"]
   end
   config.ssh.forward_agent = true
-  config.vm.network :forwarded_port, guest: 80, host: 80, auto_correct: true
+  config.vm.network :forwarded_port, guest: 8080, host: 8080, auto_correct: true
   config.vm.synced_folder '~/.ssh/', '/ssh/'
   config.vm.synced_folder '.', '/home/apps/april-fools/current', :create => true
   config.vm.provision :shell, :path => 'configure.sh'
