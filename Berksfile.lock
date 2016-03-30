@@ -1,7 +1,7 @@
 DEPENDENCIES
   cookbook_april_fools
     git: git@github.com:BuildEmpire/BUI0000_Cookbook_April_Fools.git
-    revision: 3558f75d85ca9f625a992aabe9e80e0b7ee2ff42
+    revision: d573a12abd3886a7e49cbdc8624a9706eb2a3730
   git
   nginx
     git: git@github.com:BuildEmpire/nginx.git
@@ -22,17 +22,17 @@ GRAPH
   apt (2.9.2)
   bluepill (2.4.2)
     rsyslog (>= 2.0)
-  build-essential (2.3.1)
+  build-essential (2.4.0)
     7-zip (>= 0.0.0)
   chef_handler (1.3.0)
-  compat_resource (12.8.0)
+  compat_resource (12.9.1)
   cookbook_april_fools (0.0.2)
     appbox (>= 0.0.0)
     build-essential (>= 0.0.0)
     nginx (>= 0.0.0)
   curl (2.0.1)
   dmg (2.3.0)
-  git (4.3.7)
+  git (4.4.0)
     build-essential (>= 0.0.0)
     dmg (>= 0.0.0)
     windows (>= 0.0.0)
@@ -60,6 +60,6 @@ GRAPH
   yum (3.10.0)
   yum-epel (0.6.6)
     yum (~> 3.10.0)
-  yum-repoforge (0.5.7)
+  yum-repoforge (0.6.0)
     yum (~> 3.2)
     yum-epel (>= 0.0.0)
